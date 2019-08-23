@@ -1,0 +1,103 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+
+
+ body{
+    background-color: #dcdfe3;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16;
+    font-style: bold;
+}
+ul{
+    float: right;
+    width: 200px;
+}
+
+.wrapper {
+   display: flex;
+   align-items: stretch;
+}
+
+#sidebar {
+   min-width: 250px;
+   max-width: 250px;
+}
+
+#sidebar.active {
+   margin-left: -250px;
+}
+
+a[data-toggle="collapse"] {
+   position: relative;
+}
+
+.dropdown-toggle::after {
+   display: block;
+   position: absolute;
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+}
+#snav{
+   background-color: grey; 
+}
+
+.himg{
+   width: 40px;
+   height: 40px;
+}
+
+.search{
+   height: 40px;
+   width: 300px;
+}
+
+.right-link{
+   padding-top: 40px;
+   padding-left: 20px;
+   font-size: 25px;
+   color:white;
+}
+
+.right-link1{
+   padding-top: 40px;
+   padding-left: 20px;
+   margin-left: 400px;
+   font-size: 25px;
+   color:white;
+   
+   
+}
+
+#users{
+   float: right;
+}
+
+.right-list{
+   float: right;
+   margin-top: 50px;
+   padding-top: 50px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(106, 103, 107);
+   color: rgb(39, 26, 26);
+   text-align: center;
+   }
